@@ -1,5 +1,6 @@
 const std = @import("std");
-const c = @import("c.zig");
+
+const c = @import("c");
 
 var device: c.CUdevice = undefined;
 var context: c.CUcontext = undefined;
